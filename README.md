@@ -1,5 +1,5 @@
 
-<div style = {{display: flex}}> 
+<div style = {{display: inline, flex-direction: row}}> 
 <img src="https://github.com/user-attachments/assets/9daa99e6-a400-4032-864a-d76c6548681e" width="200" />
 <h1>SmartForge</h1>
 </div>
