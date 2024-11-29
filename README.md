@@ -1,6 +1,8 @@
-<img src="https://github.com/user-attachments/assets/9daa99e6-a400-4032-864a-d76c6548681e" width="200" style="vertical-align: middle;" />
 <h1 style="display: inline;">SmartForge</h1> 
 </br>
+
+<img src="https://github.com/user-attachments/assets/9daa99e6-a400-4032-864a-d76c6548681e" width="200" style="vertical-align: middle;" />
+
 
 This project offers an intuitive no-code platform for AI and data analysis, enabling users to easily perform data analysis, train machine learning and deep learning models, and deploy them without programming knowledge.
 
