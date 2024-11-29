@@ -15,7 +15,7 @@ This project offers an intuitive no-code platform for AI and data analysis, enab
 -Compile and deploy machine learning models
 
 
-#2) Tech Stack
+# 2) Tech Stack
 
 -Frontend: Next.js
 
