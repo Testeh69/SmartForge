@@ -1,8 +1,9 @@
-# SmartForge ![SmartForge-APP](https://github.com/user-attachments/assets/9daa99e6-a400-4032-864a-d76c6548681e)
+# SmartForge 
 
 
 This project offers an intuitive no-code platform for AI and data analysis, enabling users to easily perform data analysis, train machine learning and deep learning models, and deploy them without programming knowledge.
 
+![SmartForge-APP](https://github.com/user-attachments/assets/9daa99e6-a400-4032-864a-d76c6548681e)
 
 # 1) Features to Implement
 
