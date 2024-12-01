@@ -25,8 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/smartforge.ico" sizes = "any"/>
+      <title>SmartForge</title>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-tl from-neutral-950 via-neutral-900 to-neutral-800`}
       >
         {children}
       </body>
