@@ -5,6 +5,8 @@ This project offers an intuitive no-code platform for AI and data analysis, enab
 
 # 1) Features to Implement
 
+-Auth files
+
 -Upload CSV files
 
 -Analyze data through interactive graphs
