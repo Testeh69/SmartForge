@@ -5,7 +5,7 @@ This project offers an intuitive no-code platform for AI and data analysis, enab
 
 # 1) Features to Implement
 
--Auth files
+-Auth files -> validated -> need to implement a sql database and secured the connection.
 
 -Upload CSV files
 
