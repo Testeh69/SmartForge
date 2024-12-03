@@ -9,16 +9,13 @@ export default {
   theme: {
     extend: {
       animation: {
-        typing: 'typing 4s steps(40, end), blink 0.5s step-end infinite',
+        'gradient-glow': 'gradient 5s ease infinite, glow 1.5s ease-in-out infinite',
       },
       keyframes: {
-        typing: {
-          '0%': { width: '0%' },
-          '100%': { width: '100%' },
-        },
-        blink: {
-          '0%, 100%': { borderColor: 'transparent' },
-          '50%': { borderColor: 'currentColor' },
+        gradient: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
         },
       },
 
