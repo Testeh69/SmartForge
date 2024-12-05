@@ -1,15 +1,19 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image'
-
+import UploadFileCSV from '../utils/documentAPI';
 
 const DragDataset = () => {
 
     const [uploadFile, setUploadFile] = useState<string|null>(null);
 
+
     const handleFileSelection = (files: FileList | null) => {
-        if (files && files.length > 0) {
+        if (files && files[0]?.name.endsWith(".csv") && files.length > 0) {
             setUploadFile(files[0].name);
+            UploadFileCSV(files[0]);
+            setUploadFile(null);
+
         }
     };
 
@@ -26,8 +30,11 @@ const DragDataset = () => {
 
     const handleSubmitDoc = (e:React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
-        if (file){
+        if (file?.name.endsWith(".csv")){
             setUploadFile(file.name)
+            UploadFileCSV(file)
+            setUploadFile(null);
+
         }
     }
 
