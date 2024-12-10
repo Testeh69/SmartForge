@@ -27,3 +27,6 @@ const UploadFileCSV =  async (file:File) => {
     return 1
 }
 export default UploadFileCSV;
+
+
+

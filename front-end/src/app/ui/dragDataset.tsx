@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image'
-import UploadFileCSV from '../utils/documentAPI';
+import UploadFileCSV from '../utils_docs/UploadFileAPI';
 
 const DragDataset = () => {
 

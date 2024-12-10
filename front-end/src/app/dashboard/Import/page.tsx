@@ -1,5 +1,4 @@
-import DragDataset from "../ui/dragDataset";
-
+import DragDataset from "../../ui/dragDataset";
 
 const Dashboard = () => {
 
