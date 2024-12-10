@@ -39,10 +39,11 @@ export default {
         smartforge:{
           "blue": "#172554",
           "red":"#991b1b",
-          "jaune":"#d97706"
+          "yellow":"#d97706"
         }
       },
       fontSize: {
+        'm':'1.2rem',
         'l':'1.5rem',
         'xl':'1.8rem',
         'xxl': '2.5rem', // Taille personnalisée

@@ -30,7 +30,7 @@ const LoginForm = () => {
           const data = await response.json();
           console.log(data)
           if (data.answer === true){
-            router.push('/dashboard');
+            router.push('/dashboard/Import');
           }
           else{
             localStorage.clear();
@@ -60,7 +60,7 @@ const LoginForm = () => {
           console.log(data.token);
           console.log("lol")
           localStorage.setItem("auth_token", data.token);
-          router.push('/dashboard');
+          router.push('/dashboard/Import');
         }
       }catch (error) {
     console.error('Error:', error);
